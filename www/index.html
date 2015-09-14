@@ -3,14 +3,24 @@
 <head>
 <meta charset="utf-8" />
 <meta name="format-detection" content="telephone=no" />
-<meta name="viewport" content="user-scalable=no, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
+<meta name="viewport" content="user-scalable=yes, initial-scale=1, maximum-scale=1, minimum-scale=1, width=device-width, height=device-height, target-densitydpi=device-dpi" />
 <title>Phonegap Midia</title>
 </head>
 <body>
+<style>
+    button {
+        width: 200px;
+        height: 100px;
+    }
+    input {
+        width: 200px;
+        height: 100px;   
+    }
+</style>
 <input type="button" value="Play" onClick="play()"><br/>
 <input type="button" value="Pause" onClick="pause()"><br/>
 <input type="button" value="Stop" onClick="stop()"><br />
-<a href="index.html">Voltar</a>
+<a href="index.html"><h1>Voltar</h1></a>
 
 
 <script type="text/javascript" src="cordova.js"></script>
@@ -20,7 +30,7 @@
 
             function play(){
                 classMedia = new Media(
-                    'http://treinaweb-cursos.s3.amazonaws.com/prod/67/arquivos/rockGuitar.mp3',
+                    'http://streaming05.hstbr.net:8114/live',
                     function(){},
                     onPlayError);
 
