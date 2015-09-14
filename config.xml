@@ -2,7 +2,7 @@
 <widget id="net.tibafm.mediacast" version="1.0.0" xmlns="http://www.w3.org/ns/widgets" xmlns:gap="http://phonegap.com/ns/1.0">
     <name>MediaCast</name>
     <description>
-        Hello World sample application that responds to the deviceready event.
+        Configurado com o link da TibaFM:wq
     </description>
     <author email="support@phonegap.com" href="http://phonegap.com">
         phonegap team
@@ -24,8 +24,6 @@
     <preference name="android-minsdkversion" value="14" />
     <preference name="android-installlocation" value="auto" />
     <gap:plugin name="org.apache.cordova.battery-status" />
-    <gap:plugin name="org.apache.cordova.camera" />
-    <gap:plugin name="org.apache.cordova.media-capture" />
     <gap:plugin name="org.apache.cordova.console" />
     <gap:plugin name="org.apache.cordova.device" />
     <gap:plugin name="org.apache.cordova.dialogs" />
@@ -35,7 +33,6 @@
     <gap:plugin name="org.apache.cordova.media" />
     <gap:plugin name="org.apache.cordova.network-information" />
     <gap:plugin name="org.apache.cordova.splashscreen" value="false" />
-    <gap:plugin name="org.apache.cordova.vibration" />
     <icon src="icon.png" />
     <icon gap:platform="android" gap:qualifier="ldpi" src="www/res/icon/android/icon-36-ldpi.png" />
     <icon gap:platform="android" gap:qualifier="mdpi" src="www/res/icon/android/icon-48-mdpi.png" />
